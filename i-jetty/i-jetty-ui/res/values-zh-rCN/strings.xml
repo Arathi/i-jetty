@@ -15,8 +15,8 @@
     <string name="start_jetty">启动Jetty</string>
     <string name="stop_jetty">停止Jetty</string>
     <string name="config_jetty">配置</string>
-    <string name="start_download">下载</string>
-    <string name="download_webapp">下载</string>
+    <string name="start_download">下载应用</string>
+    <string name="download_webapp">下载应用</string>
     <string name="retry">重试</string>
     <string name="url">URL</string>
     <string name="console">控制台</string>
@@ -43,7 +43,7 @@
 
     <string name="pref_keystore_pwd_key">org.mortbay.ijetty.pref.keystore.pwd</string>
     <string name="pref_keystore_pwd">密钥密码</string>
-    <string name="pref_keystore_pwd_title">Edit Password</string>
+    <string name="pref_keystore_pwd_title">修改密码</string>
     <string name="pref_keystore_pwd_value">OBF:1vny1zlo1x8e1vnw1vn61x8g1zlu1vn4</string>
 
     <string name="pref_keymgr_pwd_key">org.mortbay.ijetty.pref.keymgr.pwd</string>
@@ -70,7 +70,7 @@
     <string name="pref_console_pwd">管理台密码</string>
     <string name="pref_console_pwd_title">修改管理台密码</string>
     <string name="pref_console_pwd_key">org.mortbay.ijetty.pref.pwd</string>
-    <string name="edit_preferences">编辑i-jetty设置</string>
+    <string name="edit_preferences">编辑i-Jetty设置</string>
     <string name="connector_settings">连接器选项</string>
     <string name="webapp_exists">已存在</string>
     <string name="download_fail">下载失败。</string>
@@ -81,7 +81,7 @@
     <string name="no">否</string>
     <string name="overwrite">覆盖已存在的文件？</string>
     <string name="loading">载入中 ... </string>
-    <string name="context_path">Context Path</string>
+    <string name="context_path">部署路径</string>
     
     <!-- External Storage State Messages -->
     <string name="header_sd_media"><b>External Media Unavailable</b>\n\nThe SD Card is a required part of i-jetty, and needs to be present, formatted, mounted, <u>not</u> read-only, and with sufficient space to hold the temporary files that i-jetty needs.\n\nPlease correct your SD-Card state.</string>
