@@ -6,7 +6,7 @@
   <groupId>org.mortbay.ijetty</groupId>
   <artifactId>console-parent</artifactId>
   <packaging>pom</packaging>
-  <version>3.1</version>
+  <version>3.3</version>
   <name>I-Jetty :: Console Parent</name>
   <description>Parent project for console</description>
   <modules>
@@ -15,7 +15,8 @@
   </modules>
   <properties>
      <android.version>1.6_r2</android.version>
-     <jetty.version>7.6.0.RC4</jetty.version>
+     <jetty.version>7.6.0.v20120127</jetty.version>
      <servlet.version>2.5-20081211</servlet.version>
+     <android.platform>platforms/android-${android.sdk.version}</android.platform>
   </properties>
 </project>
