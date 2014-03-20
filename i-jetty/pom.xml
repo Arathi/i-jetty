@@ -4,7 +4,7 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>org.mortbay.ijetty</groupId>
    <artifactId>ijetty-parent</artifactId>
-   <version>3.3.1</version>
+   <version>3.4-SNAPSHOT</version>
    <packaging>pom</packaging>
    <name>I-Jetty :: Parent</name>
    <description>Jetty on Android</description>
@@ -16,7 +16,7 @@
 
    <properties>
      <android.version>1.6_r2</android.version>
-     <jetty.version>7.6.0.v20120127</jetty.version>
+     <jetty.version>8.1.14.v20131031</jetty.version>
      <servlet.version>2.5-20081211</servlet.version>
      <android.sdk.version>4</android.sdk.version>
      <android.platform>platforms/android-${android.sdk.version}</android.platform>
@@ -38,19 +38,5 @@
       </plugins>
     </pluginManagement>
   </build>
-
-  <!-- repositories>
-    <repository>
-      <id>oss-jetty-snapshots</id>
-      <url>http://oss.sonatype.org/content/repositories/jetty-snapshots</url>
-      <name>Jetty Snapshots</name>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-  </repositories -->
 
 </project>
